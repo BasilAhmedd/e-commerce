@@ -9,7 +9,7 @@
 
         public IList<Order>? Orders { get; set; }
 
-        public int ShoppingCartId { get; set; }
+        public int? ShoppingCartId { get; set; }
         public ShoppingCart? ShoppingCart { get; set; }
     }
 }

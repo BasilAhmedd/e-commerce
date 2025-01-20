@@ -7,7 +7,7 @@ namespace e_commerce.DTO.Order_s_DTO
     public class Orders_for_Customer_DTO
     {
         [Required]
-        public int TotalPrice { get; set; }
+        public int? TotalPrice { get; set; }
 
         public IList<Product_for_order_DTO>? Product_for_order_DTO { get; set; }
     }

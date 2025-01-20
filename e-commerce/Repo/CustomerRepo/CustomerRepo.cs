@@ -70,7 +70,7 @@ namespace e_commerce.Repo.CustomerRepo
                 Name = customer.Name,
                 ShoppingCartDTO = new ShoppingCart_DTO
                 {
-                    NumberOfItems = customer.ShoppingCart.NumberOfItems
+                    NumberOfItems = customer.ShoppingCart?.NumberOfItems
                 },
                 Orders_for_Customer_DTO = customer.Orders.Select(x => new Orders_for_Customer_DTO
                 {

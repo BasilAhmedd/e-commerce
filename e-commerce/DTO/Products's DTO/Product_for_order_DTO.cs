@@ -9,6 +9,6 @@ namespace e_commerce.DTO.Products_s_DTO
         [MaxLength(100)]
         public string? Description { get; set; }
         [Required]
-        public int StockQuantity { get; set; }
+        public int? StockQuantity { get; set; }
     }
 }
